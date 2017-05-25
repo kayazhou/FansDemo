@@ -14,7 +14,7 @@ class GameScene: SKScene {
     var starfield:SKEmitterNode!
     var possibleEmitter = ["MyMagic","MySmoke","MyBokeh","MyFire","MyFireFiles","MyRain","MySpark"]
 
-    
+     
     override func didMove(to view: SKView) {
         starfield = SKEmitterNode(fileNamed:"MyMagic")
         starfield.position = CGPoint(x:(self.view?.frame.width)!/2,y:(self.view?.frame.size.height)!/2)
